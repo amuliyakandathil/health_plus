@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  color: #333;  /* Text color */
+  background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb);  /* Background gradient */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  padding: 20px;
+}
+
+.component-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
